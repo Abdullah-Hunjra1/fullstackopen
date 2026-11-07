@@ -124,7 +124,7 @@ const handleSubmit = (event) => {
           setNewNumber('')
           showNotification(`${returnedPerson.name} number changed`)
         })
-        .catch(error => {
+        .catch(() => {
           showNotification(
             `Information of ${existingPerson.name} has already been removed from server`,
             'error'
@@ -148,8 +148,8 @@ const handleSubmit = (event) => {
       setNewNumber('')
       showNotification(`${returnedPerson.name} added`)
     })
-    .catch(error => {
-      showNotification('Failed to add contact', error)
+    .catch(() => {
+      showNotification('Failed to add contact', 'error')
     })
 }
 
@@ -161,7 +161,7 @@ const handleSubmit = (event) => {
         setPersons(persons.filter(person => person.id !== id))
         showNotification(`${name} deleted`)
       })
-      .catch(error => {
+      .catch(() => {
         showNotification(
           `Information of ${name} has already been removed from server`,
           'error'
