@@ -35,6 +35,25 @@ h1 {
   line-height: 1.1;
 }
 
+.notification {
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.notification.success {
+  color: green;
+  background: lightgrey;
+  border: 2px solid green;
+}
+
+.notification.error {
+  color: red;
+  background: lightgrey;
+  border: 2px solid red;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
