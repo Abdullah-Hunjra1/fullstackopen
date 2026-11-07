@@ -1,0 +1,30 @@
+{
+  "persons": [
+    {
+      "name": "Ada Lovelace",
+      "number": "39-44-5323523",
+      "id": "2"
+    },
+    {
+      "name": "Dan Abramov",
+      "number": "12-43-234345",
+      "id": "3"
+    },
+    {
+      "name": "Mary Poppendieck",
+      "number": "39-23-6423122",
+      "id": "4"
+    },
+    {
+      "name": "Abdullah",
+      "number": "03001111111",
+      "id": "RLyTSoUxI9s"
+    },
+    {
+      "name": "ali",
+      "number": "0322444333897",
+      "id": "_jTVu2PO4Uk"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
